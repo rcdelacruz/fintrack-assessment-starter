@@ -1,0 +1,57 @@
+[
+  {
+    "id": "goal-1",
+    "name": "Emergency Fund",
+    "targetAmount": 100000,
+    "currentAmount": 25000,
+    "startDate": "2025-01-01T00:00:00Z",
+    "targetDate": "2025-12-31T00:00:00Z",
+    "priority": "high",
+    "category": "Savings",
+    "status": "active"
+  },
+  {
+    "id": "goal-2",
+    "name": "Vacation to Japan",
+    "targetAmount": 50000,
+    "currentAmount": 15000,
+    "startDate": "2025-01-15T00:00:00Z",
+    "targetDate": "2025-11-30T00:00:00Z",
+    "priority": "medium",
+    "category": "Travel",
+    "status": "active"
+  },
+  {
+    "id": "goal-3",
+    "name": "New Laptop",
+    "targetAmount": 45000,
+    "currentAmount": 10000,
+    "startDate": "2025-02-01T00:00:00Z",
+    "targetDate": "2025-07-31T00:00:00Z",
+    "priority": "medium",
+    "category": "Electronics",
+    "status": "behind"
+  },
+  {
+    "id": "goal-4",
+    "name": "Down Payment for Car",
+    "targetAmount": 200000,
+    "currentAmount": 20000,
+    "startDate": "2025-01-01T00:00:00Z",
+    "targetDate": "2026-06-30T00:00:00Z",
+    "priority": "low",
+    "category": "Vehicle",
+    "status": "active"
+  },
+  {
+    "id": "goal-5",
+    "name": "Wedding Fund",
+    "targetAmount": 300000,
+    "currentAmount": 75000,
+    "startDate": "2024-06-01T00:00:00Z",
+    "targetDate": "2026-12-31T00:00:00Z",
+    "priority": "high",
+    "category": "Life Event",
+    "status": "ahead"
+  }
+]

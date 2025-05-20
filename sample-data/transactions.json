@@ -1,0 +1,202 @@
+[
+  {
+    "id": "tx-2025-001",
+    "date": "2025-05-01T10:30:00Z",
+    "merchant": "Payroll - ABC Company",
+    "amount": 35000,
+    "type": "income",
+    "category": "Salary",
+    "description": "Monthly salary deposit",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-002",
+    "date": "2025-05-02T14:25:00Z",
+    "merchant": "SM Supermarket",
+    "amount": -3250.75,
+    "type": "expense",
+    "category": "Groceries",
+    "description": "Weekly grocery shopping",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-003",
+    "date": "2025-05-03T16:45:00Z",
+    "merchant": "FinTrack Savings",
+    "amount": -5000,
+    "type": "transfer",
+    "category": "Savings",
+    "description": "Transfer to savings account",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-004",
+    "date": "2025-05-04T09:15:00Z",
+    "merchant": "Meralco",
+    "amount": -4350.50,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Electricity bill payment",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-005",
+    "date": "2025-05-05T11:20:00Z",
+    "merchant": "Manila Water",
+    "amount": -1275.30,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Water bill payment",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-006",
+    "date": "2025-05-06T08:45:00Z",
+    "merchant": "Grab",
+    "amount": -450,
+    "type": "expense",
+    "category": "Transportation",
+    "description": "Ride to office",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-007",
+    "date": "2025-05-07T12:30:00Z",
+    "merchant": "Jollibee",
+    "amount": -325.50,
+    "type": "expense",
+    "category": "Food",
+    "description": "Lunch with colleagues",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-008",
+    "date": "2025-05-08T16:15:00Z",
+    "merchant": "Globe Telecom",
+    "amount": -1999,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Mobile plan payment",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-009",
+    "date": "2025-05-09T20:10:00Z",
+    "merchant": "Shopee",
+    "amount": -2750.25,
+    "type": "expense",
+    "category": "Shopping",
+    "description": "Online shopping - household items",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-010",
+    "date": "2025-05-10T15:40:00Z",
+    "merchant": "Mercury Drug",
+    "amount": -1320.75,
+    "type": "expense",
+    "category": "Healthcare",
+    "description": "Medications",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-011",
+    "date": "2025-05-11T10:05:00Z",
+    "merchant": "Starbucks",
+    "amount": -265,
+    "type": "expense",
+    "category": "Food",
+    "description": "Coffee and pastry",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-012",
+    "date": "2025-05-12T23:59:00Z",
+    "merchant": "Netflix",
+    "amount": -499,
+    "type": "expense",
+    "category": "Entertainment",
+    "description": "Monthly subscription",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-013",
+    "date": "2025-05-13T09:30:00Z",
+    "merchant": "Maria Santos",
+    "amount": -2000,
+    "type": "transfer",
+    "category": "Family",
+    "description": "Money sent to mom",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-014",
+    "date": "2025-05-14T14:20:00Z",
+    "merchant": "BPI Credit Card",
+    "amount": -8500,
+    "type": "expense",
+    "category": "Bills",
+    "description": "Credit card payment",
+    "status": "pending"
+  },
+  {
+    "id": "tx-2025-015",
+    "date": "2025-05-15T17:00:00Z",
+    "merchant": "Freelance Project",
+    "amount": 15000,
+    "type": "income",
+    "category": "Freelance",
+    "description": "Payment for website development",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-016",
+    "date": "2025-05-15T18:30:00Z",
+    "merchant": "PLDT",
+    "amount": -2850,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Internet bill payment",
+    "status": "failed"
+  },
+  {
+    "id": "tx-2025-017",
+    "date": "2025-05-16T10:15:00Z",
+    "merchant": "PLDT",
+    "amount": -2850,
+    "type": "expense",
+    "category": "Utilities",
+    "description": "Internet bill payment - retry",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-018",
+    "date": "2025-05-16T16:45:00Z",
+    "merchant": "Robinsons Supermarket",
+    "amount": -1750.25,
+    "type": "expense",
+    "category": "Groceries",
+    "description": "Additional groceries",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-019",
+    "date": "2025-05-16T23:00:00Z",
+    "merchant": "Spotify",
+    "amount": -175,
+    "type": "expense",
+    "category": "Entertainment",
+    "description": "Monthly subscription",
+    "status": "completed"
+  },
+  {
+    "id": "tx-2025-020",
+    "date": "2025-05-17T14:30:00Z",
+    "merchant": "FinTrack Invest",
+    "amount": -3000,
+    "type": "transfer",
+    "category": "Investment",
+    "description": "Investment fund transfer",
+    "status": "pending"
+  }
+]
