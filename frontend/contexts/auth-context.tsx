@@ -35,14 +35,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   // Check if user is logged in
   useEffect(() => {
     const checkAuth = async () => {
-      const token = localStorage.getItem('token');
-      
-      if (token) {
-        try {
-          const response = await api.get('/auth/profile');
-          setUser(response.data);
-        } catch (error) {
-          localStorage.removeItem('token');
+      if (typeof window !== 'undefined') {
+        const token = localStorage.getItem('token');
+        
+        if (token) {
+          try {
+            const response = await api.get('/auth/profile');
+            setUser(response.data);
+          } catch (error) {
+            localStorage.removeItem('token');
+          }
         }
       }
       
@@ -58,7 +60,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const response = await api.post('/auth/login', { email, password });
       const { token, ...userData } = response.data;
       
-      localStorage.setItem('token', token);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('token', token);
+      }
       setUser(userData);
       return userData;
     } catch (error: any) {
@@ -72,7 +76,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       const response = await api.post('/auth/register', { email, password, firstName, lastName });
       const { token, ...userData } = response.data;
       
-      localStorage.setItem('token', token);
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('token', token);
+      }
       setUser(userData);
       return userData;
     } catch (error: any) {
@@ -82,7 +88,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   // Logout function
   const logout = () => {
-    localStorage.removeItem('token');
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('token');
+    }
     setUser(null);
   };
 
