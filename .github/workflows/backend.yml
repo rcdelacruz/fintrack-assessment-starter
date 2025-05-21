@@ -1,0 +1,40 @@
+# This is a skeleton GitHub Actions workflow for the backend
+# The candidate should complete this for the bonus task
+
+name: Backend CI/CD
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'backend/**'
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'backend/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      # TODO: Set up Node.js
+      
+      # TODO: Install dependencies
+      
+      # TODO: Run linting
+      
+      # TODO: Run tests
+  
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      # TODO: Set up Docker Buildx
+      
+      # TODO: Build and push Docker image
