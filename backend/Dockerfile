@@ -2,7 +2,7 @@
 # The candidate should complete this for the bonus task
 
 # Base stage for development dependencies
-FROM node:18-alpine AS base
+FROM node:20-alpine AS base
 WORKDIR /app
 COPY package.json package-lock.json ./
 
@@ -11,7 +11,7 @@ FROM base AS build
 # TODO: Install dependencies and build the application
 
 # Production stage
-FROM node:18-alpine AS production
+FROM node:20-alpine AS production
 WORKDIR /app
 # TODO: Setup production environment with minimal dependencies
 
