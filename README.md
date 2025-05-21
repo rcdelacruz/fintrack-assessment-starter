@@ -40,7 +40,7 @@ fintrack-assessment-starter/
    npm install
    ```
 
-3. Create a `.env` file with the following variables:
+3. Create a `.env` file with the following variables (see `.env.example` for template):
    ```
    PORT=5000
    MONGO_URI=mongodb://localhost:27017/fintrack
@@ -64,7 +64,7 @@ fintrack-assessment-starter/
    npm install
    ```
 
-3. Create a `.env.local` file with the following variables:
+3. Create a `.env.local` file with the following variables (see `.env.example` for template):
    ```
    NEXT_PUBLIC_API_URL=http://localhost:5000/api
    ```
@@ -111,6 +111,15 @@ Create reusable, well-designed components for:
 - Transaction management
 - Goal tracking and visualization
 - Financial summaries
+
+## About Starter Code
+
+This repository provides a foundation with basic functionality and skeletons for key components:
+
+- **Complete**: Authentication system, database models, API routes structure, component layouts
+- **Incomplete by Design**: Key algorithmic implementations, component logic, state management - these are what you'll need to implement as part of the assessment
+
+The incomplete parts are marked with comments like `// TODO:` or placeholder implementations that you should replace with your own code. This allows you to focus on the core technical challenges rather than boilerplate setup.
 
 ## API Reference
 
